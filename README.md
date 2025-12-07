@@ -22,6 +22,8 @@ git clone https://github.com/KrishnaTulasiSatti/Custom-CSV-Parser-in-Python.git
 cd Custom-CSV-Parser-in-Python
 ```
 
+---
+
 ## Project Structure
 
 ```
@@ -46,14 +48,13 @@ custom-csv-parser-in-python/
 
 ### **How to Run / Example Script**  
 
-```markdown
-## How to Run
-
 ```bash
 python main.py
 
 python benchmark.py
 ```
+
+---
 
 ## Usage Examples
 
@@ -131,7 +132,6 @@ The `benchmark.py` script measures the performance of the **Custom CSV Parser** 
 - For typical CSV files, the performance difference is negligible.  
 - For very large files, built-in CSV is faster, but the custom parser ensures **data integrity** for tricky CSVs.  
 
----
 
 
 
