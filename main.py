@@ -2,6 +2,7 @@ from custom_csv import CustomCSVReader
 from custom_csv import CustomCSVWriter
 
 if __name__ == "__main__":
+    
     file_path = "tests/sample_data.csv"
     reader = CustomCSVReader(file_path)
 
