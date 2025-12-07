@@ -24,6 +24,7 @@ cd Custom-CSV-Parser-in-Python
 
 ## Project Structure
 
+```
 custom-csv-parser-in-python/
  ├── custom_csv/
  │    ├── __init__.py
@@ -40,6 +41,7 @@ custom-csv-parser-in-python/
  ├── synthetic_data.csv
  └── README.md
 
+```
 ---
 
 ### **How to Run / Example Script**  
@@ -64,7 +66,7 @@ The **CustomCsvReader** allows you to read CSV files while correctly handling:
 - Newlines inside fields  
 
 **Example CSV (`sample_data.csv`):**
-
+```
 Name,Age,City,Note
 Tulasi,25,"Hyderabad","Loves reading and ""traveling"""
 "Nikhil",30,Bangalore,"Enjoys playing ""freefire"" and doing coding"
@@ -74,9 +76,10 @@ Surekha,27,Delhi,Foodie and ""traveler""
 "Deepthi",29,Kolkata,Music lover
 Geetha,31,"Pune","Gardening is her ""hobby"""
 
-
+```
 **Output after reading:**
 
+```
 ['Name', 'Age', 'City', 'Note']
 ['Tulasi', '25', 'Hyderabad', 'Loves reading and "traveling"']
 ['Nikhil', '30', 'Bangalore', 'Enjoys playing "freefire" and doing coding']
@@ -85,7 +88,7 @@ Geetha,31,"Pune","Gardening is her ""hobby"""
 ['Surekha', '27', 'Delhi', 'Foodie and "traveler"']
 ['Deepthi', '29', 'Kolkata', 'Music lover']
 ['Geetha', '31', 'Pune', 'Gardening is her "hobby"']
-
+```
 
 ---
 
@@ -97,7 +100,7 @@ The **CustomCsvWriter** allows you to write Python lists to CSV while ensuring:
 - Double quotes inside a field are **doubled** automatically  
 
 **Example Output CSV (`output_data.csv`):**
-
+```
 Name,Age,City,Note
 Tulasi,25,Hyderabad,"Loves reading and ""traveling"""
 Nikhil,30,Bangalore,"Enjoys playing ""freefire"" and coding"
@@ -106,7 +109,7 @@ Durga,32,Mumbai,"Fitness ""enthusiast"""
 Surekha,27,Delhi,"Foodie and """"traveler"""""
 Deepthi,29,Kolkata,Music lover
 Geetha,31,Pune,"Gardening is her ""hobby"""
-
+```
 
 ---
 
